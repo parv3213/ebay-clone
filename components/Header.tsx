@@ -97,6 +97,7 @@ const Header = (props: Props) => {
         {otherLinks.map((link, index) => {
           return (
             <span
+              key={index}
               className={`link text-gray-600 ${index > 2 && index <= 6 ? 'hidden md:block' : ''} ${
                 index > 6 ? 'hidden lg:block' : ''
               }`}>
