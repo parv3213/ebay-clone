@@ -8,7 +8,7 @@
   }
 
   .smallHidden {
-    @apply hidden md:inline-flex;
+    @apply hidden md:block;
   }
 
   .iconHeight {
@@ -21,5 +21,9 @@
 
   .connectWalletBtn {
     @apply rounded bg-blue-500 px-4 py-2 font-semibold text-white;
+  }
+
+  .btn {
+    @apply px-5 py-2 md:px-10;
   }
 }
