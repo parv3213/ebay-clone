@@ -26,4 +26,8 @@
   .btn {
     @apply px-5 py-2 md:px-10;
   }
+
+  .card {
+    @apply cursor-pointer rounded-md border border-gray-200 bg-gray-50 p-5 hover:bg-gray-100;
+  }
 }
